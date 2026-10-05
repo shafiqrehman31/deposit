@@ -1,0 +1,6 @@
+{
+  "name": "Deposit Hero - UK Tenancy Deposit Claims & Management",
+  "description": "Professional UK tenancy deposit claims service with instant compensation calculator, multi-step eligibility quiz, encrypted CRM integration, and administrative CMS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
