@@ -182,12 +182,12 @@ app.post('/api/leads', (req: Request, res: Response) => {
 });
 
 // Serve frontend assets statically in production mode
-if (process.env.NODE_ENV === 'production' || process.env.VERCEL) {
-  app.use(express.static(path.join(__dirname, 'dist')));
-  app.get('*', (req: Request, res: Response) => {
-    res.sendFile(path.join(__dirname, 'dist', 'index.html'));
-  });
-}
+//if (process.env.NODE_ENV === 'production' || process.env.VERCEL) {
+//  app.use(express.static(path.join(__dirname, 'dist')));
+//  app.get('*', (req: Request, res: Response) => {
+//    res.sendFile(path.join(__dirname, 'dist', 'index.html'));
+//  });
+//}
 
 // Start listener cleanly when running locally
 if (!process.env.VERCEL) {
